@@ -2,7 +2,7 @@ CREATE DATABASE scriptlounge;
 USE scriptlounge;
 CREATE TABLE Mesura (
 	idDevice CHAR(6) NOT NULL,
-	Temps DATE NOT NULL,
+	Temps DATETIME NOT NULL,
 	PRIMARY KEY (idDevice)
 );
 
